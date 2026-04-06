@@ -1,0 +1,54 @@
+# Environment and secrets
+.env
+.env.local
+.env.production
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# GeoServer runtime data (lives outside repo)
+geoserver/data/
+
+# Uploaded files (managed by the application, not version-controlled)
+uploads/
+temp/
+
+# Large GIS files (use sample-data/ for small test fixtures only)
+*.tif
+*.tiff
+*.img
+*.ecw
+*.sid
+
+# Build outputs
+dist/
+build/
+
+# Logs
+*.log
+logs/
+
+# Database dumps (backups are managed operationally, not in repo)
+*.sql.gz
+*.dump
+*.backup
